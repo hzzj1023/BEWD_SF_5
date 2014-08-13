@@ -14,13 +14,34 @@
 ###########
 ###########
 #
-#'Welcome to Teddit! a text based news aggregator. Get today\'s news tomorrow!'
-#'Story: Man raised by wolverines, then eaten Current upvotes: 4'
+#puts 'Welcome to Teddit! a text based news aggregator. Get today\'s news tomorrow!'
+#puts 'Story: Man raised by wolverines, then eaten Current upvotes: 4'
 
 
 #Version 2 - Replace the story title and upvotes with variables.
 ###########
 ###########
+story = "Cat makes fortune by showing elderly how to play dice."
+upvotes = 7
+#puts "Story:" + story + " Current upvotes:" + upvotes.to_s
+#puts "Story: #{story.capitalize}"
+#puts "Story: #{story.capitalize} \nCurrent upvotes: \t#{upvotes}"
+
+def puts_welcome
+	puts "Welcome to Teddit! a text based news aggregator. Get today\'s news tomorrow!"
+end
+
+def headline
+	"Cat makes fortune by showing elderly how to play dice."
+end
+
+def story_stats(story, upvotes)
+	"Story: #{story.capitalize} \nCurrent upvotes: \t#{upvotes}"
+end
+
+puts_welcome
+
+puts story_stats(headline, 4)
 
 
 

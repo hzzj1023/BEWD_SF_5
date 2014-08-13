@@ -1,0 +1,5 @@
+cd
+Git is system where I store and manage my code. GitHub is a web service people use to collaborate when creating programs
+Git Add .
+Git Repo is a set of programs that can be copied, shared and modified
+git push
