@@ -42,7 +42,12 @@ $:.unshift (File.dirname(__FILE__))
 require 'lib/game'
 
 # put code here print a welcome message for your user
+puts "Welcome to Secret Number, a game created by Jian Zheng"
 
 # put code here ask the user for their name, and save it
+player = Person.new
 
 # put code here to create a new game, and start it
+newGame = Game.new player
+newGame.greeting
+newGame.play
